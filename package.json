@@ -1,0 +1,23 @@
+{
+  "name": "Crud_Serverless_Aws_RDS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thegenes93/Crud_Serverless_Aws_RDS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thegenes93/Crud_Serverless_Aws_RDS/issues"
+  },
+  "homepage": "https://github.com/thegenes93/Crud_Serverless_Aws_RDS#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
