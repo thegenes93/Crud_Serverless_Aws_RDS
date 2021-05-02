@@ -2,12 +2,11 @@
 
 const mysql = require('mysql');
 const connection = mysql.createConnection({
-  host: "database-1.c3aoif6g4a6s.us-east-1.rds.amazonaws.com",
-  user: "admin",
-  password: "91053989",
-  database: "crud_aws"
+  host: process.env.RDS_HOST,
+  user: process.env.RDS_USER,
+  password: process.env.RDS_PASS,
+  database: process.env.RDS_DATABASE
 });
-
 
 module.exports.getFuncionarios = async (event) => {
 
